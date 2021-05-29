@@ -10,7 +10,6 @@ today = daftar_tgl[rando]
 month = bulan[rand]
 tanggal = today + "-" + month + "-2021"
 
-
 print('--------------------------------------------')
 print('Selamat datang di pintu masuk toll Jasawarga')
 print('--------------------------------------------')
