@@ -400,6 +400,44 @@ elif lokasi == 'E':
             harga1 = harga + tarif
             print('Harga yang anda harus bayarkan adalah')
             print(harga1)
+    elif Tujuan == 'Semarang':
+        harga = 320000
+        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        if jenis_kendaraan == 'Roda 4':
+            tarif = 11000
+            harga1 = harga + tarif
+            print('Harga yang anda harus bayarkan adalah')
+            print(harga1)
+        elif jenis_kendaraan == 'Roda 6':
+            tarif = 16500
+            harga1 = harga + tarif
+            print('Harga yang anda harus bayarkan adalah')
+            print(harga1)
+        elif jenis_kendaraan == 'Roda 8':
+            tarif = 22000
+            harga1 = harga + tarif
+            print('Harga yang anda harus bayarkan adalah')
+            print(harga1)
+    elif Tujuan == 'Bandung':
+        harga = 500000
+        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        if jenis_kendaraan == 'Roda 4':
+            tarif = 11000
+            harga1 = harga + tarif
+            print('Harga yang anda harus bayarkan adalah')
+            print(harga1)
+        elif jenis_kendaraan == 'Roda 6':
+            tarif = 16500
+            harga1 = harga + tarif
+            print('Harga yang anda harus bayarkan adalah')
+            print(harga1)
+        elif jenis_kendaraan == 'Roda 8':
+            tarif = 22000
+            harga1 = harga + tarif
+            print('Harga yang anda harus bayarkan adalah')
+            print(harga1)
 print('\n')
 if tanggal == '6-5-2021':
     harga1 = harga1 + 5000
