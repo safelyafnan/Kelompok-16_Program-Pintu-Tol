@@ -11,7 +11,7 @@ month = bulan[rand]
 tanggal = today + "-" + month + "-2021"
 
 print('--------------------------------------------')
-print('Selamat datang di pintu masuk toll Jasawarga')
+print('Selamat datang di pintu masuk tol Jasawarga')
 print('--------------------------------------------')
 print('Lokasi anda saat ini adalah')
 print('A. Semarang')
@@ -31,8 +31,8 @@ if lokasi == 'A':
     Tujuan = input('Masukkan tujuan Anda: ')
     if Tujuan == 'Surabaya':
         harga = 320000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -50,8 +50,8 @@ if lokasi == 'A':
             print(harga1)
     elif Tujuan == 'Jakarta':
         harga = 330000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -69,8 +69,8 @@ if lokasi == 'A':
             print(harga1)
     elif Tujuan == 'Bandung':
         harga = 300000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -88,8 +88,8 @@ if lokasi == 'A':
             print(harga1)
     elif Tujuan == 'Surakarta':
         harga = 55000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -115,8 +115,8 @@ elif lokasi =='B':
     Tujuan = input('Masukkan tujuan Anda: ')
     if Tujuan == 'Surabaya':
         harga = 210000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -134,8 +134,8 @@ elif lokasi =='B':
             print(harga1)
     elif Tujuan == 'Semarang':
         harga = 55000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -153,8 +153,8 @@ elif lokasi =='B':
             print(harga1)
     elif Tujuan == 'Bandung':
         harga = 370000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -172,8 +172,8 @@ elif lokasi =='B':
             print(harga1)
     elif Tujuan == 'Jakarta':
         harga = 400000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -198,8 +198,8 @@ elif lokasi =='C':
     Tujuan = input('Masukkan tujuan Anda: ')
     if Tujuan == 'Surabaya':
         harga = 500000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -217,8 +217,8 @@ elif lokasi =='C':
             print(harga1)
     elif Tujuan == 'Surakarta':
         harga = 370000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -236,8 +236,8 @@ elif lokasi =='C':
             print(harga1)
     elif Tujuan == 'Semarang':
         harga = 300000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -255,8 +255,8 @@ elif lokasi =='C':
             print(harga1)
     elif Tujuan == 'Jakarta':
         harga = 60000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -281,8 +281,8 @@ elif lokasi == 'D':
     Tujuan = input('Masukkan tujuan Anda: ')
     if Tujuan == 'Surabaya':
         harga = 660000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -300,8 +300,8 @@ elif lokasi == 'D':
             print(harga1)
     elif Tujuan == 'Surakarta':
         harga = 400000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -319,8 +319,8 @@ elif lokasi == 'D':
             print(harga1)
     elif Tujuan == 'Semarang':
         harga = 330000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -338,8 +338,8 @@ elif lokasi == 'D':
             print(harga1)
     elif Tujuan == 'Bandung':
         harga = 60000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -364,8 +364,8 @@ elif lokasi == 'E':
     Tujuan = input('Masukkan tujuan Anda: ')
     if Tujuan == 'Jakarta':
         harga = 660000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -383,8 +383,8 @@ elif lokasi == 'E':
             print(harga1)
     elif Tujuan == 'Surakarta':
         harga = 210000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -402,8 +402,8 @@ elif lokasi == 'E':
             print(harga1)
     elif Tujuan == 'Semarang':
         harga = 320000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
@@ -421,8 +421,8 @@ elif lokasi == 'E':
             print(harga1)
     elif Tujuan == 'Bandung':
         harga = 500000
-        print('Jenis kendaraan yang diperkenankan memasuki toll adalah: Roda 4, Roda 6, dan Roda 8')
-        jenis_kendaraan = input('Apakah kendaraan yang anda pakai? ')
+        print('Jenis kendaraan yang diperkenankan memasuki tol adalah: Roda 4, Roda 6, dan Roda 8')
+        jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
             harga1 = harga + tarif
