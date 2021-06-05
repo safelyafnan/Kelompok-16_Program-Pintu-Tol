@@ -5,8 +5,16 @@ Program ini mempermudah pengguna dalam mengggunakan jalan tol secara efektif dan
 
 Repository
 Berkas "Diagram Alir Program Jalan Tol"
-  Merupakan 
+  Merupakan diagram yang mewakili algoritme, alir kerja atau proses, yang menampilkan langkah-langkah dalam bentuk simbol-simbol grafis serta mewakili ilustrasi atau             penggambaran penyelesaian masalah dalam pembuatan struk jalan tol.
 Berkas "Laporan Tugas Besar Tahap 1"
-  Merupakan
+  Merupakan laporan yang berisikan ide atau usulan gagasan sebuah program pembuatan struk jalan tol yang di mana dibuat dengan bahasa python dan disusun dengan algoritma         tertentu.
 Berkas "Program Pintu Tol"
-  Merupakan
+  Merupakan program atau algoritma yang disusun untuk menampilkan penggambaran penyelesaian masalah dalam pembuatan struk jalan tol.
+Berkas "Readme.md"
+  Merupakan penjelasan singkat terhadap berkas berkas atau isi dari repository tugas besar ini.
+  
+System Requirement
+Untuk menjalankan program ini, pengguna hanya perlu memiliki software programming. Pengguna bebas memilih programnya (pycharm, VSCode, dsb.). Tidak ada library khusus yang harus diinstal terlebih dahulu apabila ingin menjalankan program ini. 
+
+Penjelasan Singkat Program 
+Pengguna dapat mendownload file program pintu tol, kemudian membuka file menggunakan python versi berapapun "Program Pintu Tol.py" ke pycharm, setelah itu pengguna bisa melakukan running serta mengisi seluruh printhand yang diminta oleh program tersebut. 
