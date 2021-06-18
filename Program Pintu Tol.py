@@ -13,6 +13,8 @@ tanggal = today + "-" + month + "-2021"
 print('--------------------------------------------')
 print('Selamat datang di pintu masuk tol Jasawarga')
 print('--------------------------------------------')
+
+#Lokasi saat ini
 print('Lokasi anda saat ini adalah')
 print('A. Semarang')
 print('B. Surakarta')
@@ -22,6 +24,7 @@ print('E. Surabaya')
 lokasi =input('Silakan pilih lokasi anda saat ini(pilih A/B/C/D/E: ')
 print("\n")
 
+#Kota Tujuan
 if lokasi == 'A':
     print('Daftar tujuan:')
     print('1. Jakarta')
@@ -35,7 +38,7 @@ if lokasi == 'A':
         jenis_kendaraan = input('Apa jenis kendaraan yang anda pakai? ')
         if jenis_kendaraan == 'Roda 4':
             tarif = 11000
-            harga1 = harga + tarif
+            harga1 = harga + tarif    #Perhitungan harga tol
             print('Harga yang anda harus bayarkan adalah')
             print(harga1)
         elif jenis_kendaraan == 'Roda 6':
@@ -439,6 +442,8 @@ elif lokasi == 'E':
             print('Harga yang anda harus bayarkan adalah')
             print(harga1)
 print('\n')
+
+#Tarif tambahan mendekati lebaran
 if tanggal == '6-5-2021':
     harga1 = harga1 + 5000
     print('========================================================================================================')
